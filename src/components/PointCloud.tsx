@@ -1,4 +1,4 @@
-import { useMemo, useRef, useEffect, useState } from 'react';
+import { useMemo, useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { TOTAL_COMBINATIONS, indexToPosition } from '../utils/combinatorics';
 import { useAppStore } from '../store/useAppStore';
